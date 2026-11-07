@@ -4,6 +4,10 @@ originalAuthor: Gicu
 description: Necessary files for KHBBS Archipelago Randomizer.
 assets:
 #Lua Script
+- name: scripts/bbsAPPatcher.lua
+  method: copy
+  source:
+  - name: bbsAPPatcher.lua
 - name: scripts/bbsAPConnector.lua
   method: copy
   source:
@@ -32,6 +36,18 @@ assets:
   method: copy
   source:
   - name: bbsAPHandleDeathlink.lua
+- name: scripts/io_packages/items.lua
+  method: copy
+  source:
+  - name: io_packages/items.lua
+- name: scripts/io_packages/iter.lua
+  method: copy
+  source:
+  - name: io_packages/iter.lua
+- name: scripts/io_packages/locations.lua
+  method: copy
+  source:
+  - name: io_packages/locations.lua
 - name: remastered/Item/Tm2/it1f1b.tm2/-0.dds
   method: copy
   source:
